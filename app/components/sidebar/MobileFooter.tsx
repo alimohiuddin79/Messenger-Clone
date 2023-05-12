@@ -12,7 +12,7 @@ const MobileFooter = () => {
         <div
             className="
                 fixed
-                justify-center
+                justify-between
                 w-full
                 bottom-0
                 z-40
