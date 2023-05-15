@@ -16,6 +16,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
     initialItems
 }) => {
     const [items, setItems] = useState(initialItems);
+    const [isModalOpen, setIsModalOpen] = useState(false);
     
     const router = useRouter();
 
@@ -49,6 +50,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
                         Messages
                     </div>
                     <div
+                    onClick={() => setIsModalOpen(true)}
                         className="
                             rounded-full
                             p-2

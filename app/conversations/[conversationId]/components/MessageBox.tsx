@@ -71,7 +71,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
                             text-xs
                             font-light
                             text-gray-500
-                        "
+                            "
                     >
                         {`Seen by ${seenList}`}
                     </div>
